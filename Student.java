@@ -6,6 +6,7 @@ public class Student
   private int grade;
   private int gpa;
   private static int totalStudents;
+  private static String yourMom;
 
   public Student(String fName, String lName, String skool, int graide)
   {
@@ -15,6 +16,11 @@ public class Student
     grade = graide;
     totalStudent++;
   }	
+
+  public static getyourMom;
+  {
+    return yourMom;
+  }
 
   public String toString()
   {
