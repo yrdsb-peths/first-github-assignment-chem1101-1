@@ -5,6 +5,7 @@ public class Student
   private String school;
   private int grade;
   private int gpa;
+  private static int totalStudents;
 
   public Student(String fName, String lName, String skool, int graide)
   {
@@ -12,7 +13,9 @@ public class Student
     LastName = lName;
     school = skool;
     grade = graide;
-  }
+    totalStudent++;
+  }	
+
   public String toString()
   {
     return "Student's name is: " + firstName + " " + lastName + "and they are in grade " + grade + "at" + school;
